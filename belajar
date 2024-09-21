@@ -1,0 +1,17 @@
+
+package learnbean;
+import java.util.Scanner;
+
+public class NewClass {
+    public static void main(String[] args) {
+        Scanner ipt = new Scanner (System.in);
+        String nama;
+        int nim;
+        
+        System.out.print("nama saya : ");
+        nama=ipt.nextLine();
+        System.out.print("nim saya");
+        nim=ipt.nextInt();
+                
+    }
+}
